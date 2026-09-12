@@ -37,24 +37,52 @@
 // Console.WriteLine(x / y);
 // Console.WriteLine(x % y);
 
-string firstName = "Leha";
-string lastName = "Kovalevskii";
-string group = "ISP-243";
-int birthYear = 2007;
-double gpa = 4.5;
-bool hasScholarship = true;
+// string firstName = "Leha";
+// string lastName = "Kovalevskii";
+// string group = "ISP-243";
+// int birthYear = 2007;
+// double gpa = 4.5;
+// bool hasScholarship = true;
 
-int currentYear = 2026;
-int age = currentYear - birthYear;
+// int currentYear = 2026;
+// int age = currentYear - birthYear;
 
-Console.WriteLine("Студенчиское удостоверение");
-Console.WriteLine($"Имя: {firstName} {lastName}");
-Console.WriteLine($"group: {group}");
-Console.WriteLine($"Vozrast: {age} let");
-Console.WriteLine($"Sr ball: {gpa}");
-Console.WriteLine($"stipendia: {hasScholarship}");
+// Console.WriteLine("Студенчиское удостоверение");
+// Console.WriteLine($"Имя: {firstName} {lastName}");
+// Console.WriteLine($"group: {group}");
+// Console.WriteLine($"Vozrast: {age} let");
+// Console.WriteLine($"Sr ball: {gpa}");
+// Console.WriteLine($"stipendia: {hasScholarship}");
 
-Console.Write("\nВведите ваш любимый предмет: ");
-string subject = Console.ReadLine();
-Console.WriteLine($"отлично! {firstName} любит {subject}");
+// Console.Write("\nВведите ваш любимый предмет: ");
+// string subject = Console.ReadLine();
+// Console.WriteLine($"отлично! {firstName} любит {subject}");
+
+int a = 15;
+int b = 4;
+
+Console.WriteLine($"Sum: {a + b}");
+Console.WriteLine($"raznost: {a - b}");
+Console.WriteLine($"proizvedenie: {a * b}");
+Console.WriteLine($"chastnoe: {a / b}");
+Console.WriteLine($"ostatok: {a % b}");
+
+double result = (double)a / b;
+Console.WriteLine($"chastnoe (double): {result}");
+
+Console.WriteLine(Math.Abs(-5));
+Console.WriteLine(Math.Pow(5, 10));
+Console.WriteLine(Math.Sqrt(50));
+Console.WriteLine(Math.Max(5,25));
+Console.WriteLine(Math.min(5,25));
+Console.WriteLine(Math.Round(5.1424, 2));
+
+Console.WriteLine("калькулятор");
+Console.Write("Введите первое число: ");
+double num1 = double.Parse(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+double num2 = double.Parse(Console.ReadLine());
+
+
 
